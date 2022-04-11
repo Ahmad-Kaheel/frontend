@@ -7,7 +7,7 @@ import Category from './components/Category';
 const App = () => (
   <Router >
     <Layout>
-      <Routes>
+      <Routes >
         <Route exact path = '/' element = {<Blog/>} />
         <Route exact path = '/category/:category' element = {<Category/>} />
         <Route exact path = '/blog/:id' element = {<BlogDetail/>} />
